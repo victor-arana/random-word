@@ -1,6 +1,6 @@
 package com.no.data;
 
-public class App
+public class RandomWord
 {
     public static void main( String[] args )
     {
