@@ -18,6 +18,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>edu.princeton.cs.algs4</groupId>
+      <artifactId>algs4</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
@@ -25,5 +30,12 @@
     </dependency>
   </dependencies>
 
+  <repositories>
+    <repository>
+      <id>org.coursera.algs4</id>
+      <name>Algs4 coursera course custom repository</name>
+      <url>https://raw.github.com/slok/algs4-mvn-repo/master</url>
+    </repository>
+  </repositories>
 
 </project>
